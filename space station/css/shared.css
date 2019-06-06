@@ -146,21 +146,6 @@ section {
 	
 }
 
-/*Extra code added to try and get menu containers to show up
-ul.menu {
-	min-width: 696px;
-	list-style: none;
-	padding-top: 20px;
-	display: inline-block;
-	border: solid;
-	border-color: black;
-}
-
-ul.menu li {
-	display: inline-block;
-}
-/*Extra code added to try and get menu containers to show up*/
-
 /*Home Section Styles*/
 
 #home {
