@@ -2,10 +2,9 @@
 
 body {
     background-image: url("coffeecomputer.jpg");
-    background-repeat: no repeat;
+    background-repeat: no-repeat;
     background-position: center top;
     background-size: 100%;
-
 }
 
 p {
@@ -130,7 +129,7 @@ h3 {
 
 
 
-@media screen and (max-width: 413px) {
+@media screen and (max-width: 415px) {
     p {
         font-size: 10px;
     }
@@ -138,15 +137,32 @@ h3 {
         font-size: 8px;
     }
     .about-paragraph {
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
-    .sam {
-        margin-top: 20em;
-    }
-    .marquita {
-        
+    img.sam {
+        margin-top: 0px;
     }
 
+    .marquita {
+        margin-top: 55px;
+    }
+
+    #skills-section {
+        text-align: center;
+    }
+
+    #contact {
+        margin-top: 50px;
+    }
+
+    p.center-email {
+        margin: 2px;
+    }
+
+    .bad-kitty {
+        width: 30px;
+        height: 140px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -194,13 +210,6 @@ h3 {
     border-radius: 50%;
     background-color: white;
     padding: 5px;
-}
-
-@media screen and (max-width: 415px) {
-    .sam {
-        width: 2em;
-        height: -15em;
-    }
 }
 
 /*--Same Photo--*/
